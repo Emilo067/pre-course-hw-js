@@ -1,4 +1,3 @@
-// code
 
 let passportWithAddress = {
     name: "Petr",
@@ -11,9 +10,9 @@ let passportWithAddress = {
 
 
 
-let copyPassport = {...passportWithAddress, address: {...passportWithAddress.address, city: 'Bobryisk'}}
+let copy = {...passportWithAddress, address: {...passportWithAddress.address, city: 'Bobryisk'}}
 
 console.log(passportWithAddress.address.city)
-console.log(copyPassport.address.city)
+console.log(copy.address.city)
 
 
