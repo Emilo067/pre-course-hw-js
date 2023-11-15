@@ -6,7 +6,7 @@ let passport = {
 };
 
 
-let copyPassport = {...passport}
+let copyPassport = {...passport, name: 'Ivan'}
 
 console.log(passport.name)
 console.log(copyPassport.name)
